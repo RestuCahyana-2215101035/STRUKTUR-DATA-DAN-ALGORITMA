@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
+	cout<<"PROGRAM BINARY SEARCH"<<endl;
 	int angka[] = {1,2,3,4,5,6,7,8,9,10};
 	int length = sizeof(angka)/sizeof(*angka);
 	int cari, hasil;
