@@ -6,7 +6,7 @@ using namespace std;
 
 
 
-//Main
+
 int main (int argc, char** argv)
 {
 	
@@ -31,29 +31,28 @@ int main (int argc, char** argv)
 	
 	list2.printAll();
 	
-	//CODE DIBAWAH GPT
-	 // Test insertToTail
+	
+
     list1.insertToTail(43);
     list1.insertToTail(65);
     
     list1.printAll();
     
-    // Test insertAfter
+
     list1.insertAfter(98, 20);
     list1.printAll();
     
-    // Test deleteFromHead
+
     list1.deleteFromHead();
     list1.printAll();
     
-     // Test deleteFromTail
+
     list1.deleteFromTail();
     list1.printAll();
 
-    // Test deleteByValue
     list1.deleteByValue(98);
     list1.printAll();
-    //AKHIR GPT
+   
 	
 	return 0;
 }
